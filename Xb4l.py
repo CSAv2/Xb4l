@@ -17,7 +17,7 @@ try:
 	import requests
 except ImportError:
 	os.system("pip2 install requests")
-	os.system("python2 DILZ-R.py")
+	os.system("python2 XB4L.py")
 from requests.exceptions import ConnectionError
 from mechanize import Browser 
 
@@ -61,13 +61,13 @@ def jalan(z):
 #########LOGO#########
 logo = """
 
-\33[31;1m██████╗░██╗██╗░░░░░███████╗░░░░░░██████╗░
-\33[31;1m██╔══██╗██║██║░░░░░╚════██║░░░░░░██╔══██╗
-\33[31;1m██║░░██║██║██║░░░░░░░███╔═╝█████╗██████╔╝
-\33[37;1m██║░░██║██║██║░░░░░██╔══╝░░╚════╝██╔══██╗
-\33[37;1m██████╔╝██║███████╗███████╗░░░░░░██║░░██║
-\33[37;1m╚═════╝░╚═╝╚══════╝╚══════╝░░░░░░╚═╝░░╚═╝
-\033[1;41;97m Rum Delvino 2004 \033[0m
+██╗░░██╗███╗░░██╗██╗░░██╗██╗░░██╗░░░░█████╗░░█████╗░███╗░░░███╗
+╚██╗██╔╝████╗░██║╚██╗██╔╝╚██╗██╔╝░░░██╔══██╗██╔══██╗████╗░████║
+░╚███╔╝░██╔██╗██║░╚███╔╝░░╚███╔╝░░░░██║░░╚═╝██║░░██║██╔████╔██║
+░██╔██╗░██║╚████║░██╔██╗░░██╔██╗░░░░██║░░██╗██║░░██║██║╚██╔╝██║
+██╔╝╚██╗██║░╚███║██╔╝╚██╗██╔╝╚██╗██╗╚█████╔╝╚█████╔╝██║░╚═╝░██║
+╚═╝░░╚═╝╚═╝░░╚══╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░╚════╝░░╚════╝░╚═╝░░░░░╚═╝
+\033[1;41;97m Iqbali CSA 2021 \033[0m
  """
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -122,9 +122,9 @@ def tokenz():
 		zedd = open("login.txt", 'w')
 		zedd.write(toket)
 		zedd.close()
-		jalan ('\033[1;97m JANGAN LUPA FOLLOW AKUN GW CUK')
+		jalan ('\033[1;97m JANGAN LUPA MALING CUK')
 		print '\033[1;97m[\033[1;39m✓\033[1;97m]\033[1;39m Alhamdulillah'
-		os.system('xdg-open  https://www.facebook.com/RUMXYZ5X')
+		os.system('xdg-open  08214886xxxx')
 		bot_komen()
 	except KeyError:
 		print "\033[1;97m[\033[1;39m!\033[1;97m] \033[1;39mToken Salah !"
